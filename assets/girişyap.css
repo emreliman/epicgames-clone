@@ -1,0 +1,102 @@
+.giriş-card{
+    width:45vh ;
+    height: 55vh;
+    background-color:#202020;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    
+    }
+
+.giriş-logo img{
+        margin:40px 43%;
+        width: 45px;
+        height: 50px;
+        object-fit: fill;
+        background: transparent;
+        
+    }
+ .giriş-görünenad{
+        display: flex;
+        flex-direction: column;
+    }
+    .giriş-görünenad input,.giriş-şifre input{
+        font:Brutal, sans-serif;
+        color: #F4F4F4;
+        width: 80%;
+        border: 0;
+        height: 50px;
+        margin-top: 10px ;
+        margin-left: 30px;
+        background:  #926868a9;
+        box-sizing: content-box;
+        border-radius: 4px;
+    
+    }
+    .giriş-devamet{
+        color: rgba(255, 255, 255, 0.3);
+       cursor: text;
+       font-size: 14px;
+       box-sizing: border-box;
+       font-weight: 400;
+       font-family: Brutal, sans-serif;
+       line-height: 20px;
+       width: 80%;
+       height:50px ;
+       margin:0px 33px  ;
+       background-color:rgba(18,18,18,0.5);
+       border-radius: 4px;
+       text-decoration: none;
+       text-align: center;
+       border: none;
+}
+
+.giriş-teklifler input{
+    margin-top: 16px;
+    margin-right: 10px;
+    margin-left: 35px;
+    width: 20px;
+    height: 20px;
+    background-color: #454545;
+    color:#454545; 
+    cursor: pointer;
+
+}
+.giriş-teklifler{
+    display: flex;
+    margin: 10px 0px;
+    margin-right: 50px;
+    color:rgba(244, 244, 244, 0.5);
+    font-size: 12px;
+    font-family: Brutal, sans-serif;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+.giriş-gerekli{
+    position: absolute;
+    top: 230px;
+    right: 328px;
+   color: rgba(255, 255, 255, 0.805);
+   font:Brutal, sans-serif;
+}
+.giriş-gerekli2{
+    position: absolute;
+    top: 295px;
+    right: 328px;
+   color: rgba(255, 255, 255, 0.805);
+   font:Brutal, sans-serif;   
+}
+.giriş-şifre{
+    display: flex;
+    color: rgba(255, 255, 255, 0.805);
+   font:Brutal, sans-serif;  
+
+}
+.giriş-görünenad{
+    display: flex;
+flex-direction: row;
+color: rgba(255, 255, 255, 0.805);
+   font:Brutal, sans-serif;  
+}

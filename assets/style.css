@@ -1,0 +1,463 @@
+
+:root{
+    background-color: #181616
+}
+body{
+    margin: 0;
+}
+
+#nav-bar{
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: #383838;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    font-family: 'Roboto',sans-serif;
+    z-index: 9999999;
+    
+}
+#nav-bar li{
+    float: left;
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 8px 25px;
+    text-decoration: none;
+    font-size: .710rem;
+    background-color:  #383838;
+    transform: translateX(-40px);
+    cursor: pointer;
+  }
+#nav-bar li:hover{
+    color: rgb(245, 241, 241);
+    
+
+}
+#nav-bar li img{
+   
+    top: 0;
+    width: 2.2rem;
+    height: 2.5rem;
+    transform: translateX(-15px);
+    transform: translateY(-15px);
+    object-fit: cover;
+    background: transparent;
+    
+
+  }
+#nav-bar li:nth-child(7){
+    float: right;
+    background: #0078f2;
+    padding: 8px 10px;
+    margin: 0px 10px;
+    
+}
+#nav-bar li:nth-child(8){
+    float: right;
+}
+#nav-bar li:nth-child(9){
+  float: right;
+ 
+}
+#top-card{
+display: flex;
+margin-top: 20vh;
+margin-left: 15.5vh;
+height: 50vh;
+width: 77%;
+background-color:#202020;
+
+flex-direction: row;
+
+
+}
+#top-card img{
+
+height: 100%;
+width: 100%;
+background-color: royalblue;
+object-fit: fill;
+
+
+}
+button{
+    margin-top:10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+.arrow {
+    border: solid rgba(255, 255, 255, 0.7);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    
+  }
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+
+  }
+.left {
+      margin-left: 15px;
+    transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  }
+.card-about{
+      display: flex;
+      background:none;
+      flex-direction: column;
+      
+  }
+.game-name{
+    flex-grow: 1;
+      margin-top: 70px;
+      font-size: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:white ;
+      background-color:#202020;
+  }
+.game-about{
+    flex-grow: 1; 
+      color:rgba(255, 255, 255, 0.726) ;
+      background-color:#202020; ;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+     font-size: 15px;
+     padding-right: 5px;
+      
+      
+  }
+.card-about a{
+      flex-grow: 1;
+      margin-top: auto;
+      margin-bottom: 30px;
+      text-decoration: none;
+      text-decoration-style: none;
+      color:rgba(255, 255, 255, 0.8) ;
+      background-color:#202020;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+  }
+.cadilar{
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.692);
+  }
+.discount-card-item{
+  margin-top: 30px;
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  
+  
+
+  }
+  
+.discount-card-item p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.992);
+    font-size:small;
+
+
+  }
+.discount{
+    background-color: rgba(0, 0, 255, 0.774);
+    border-radius: 10px;
+    padding:0px 8px;
+    margin-right: 15px;
+    transform: translateX(-7px);
+
+  }
+.bottomcard{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+  
+  }
+.bottomcard:hover{
+  filter: brightness(120%);
+}
+.bottomcard p:nth-child(3){
+    color: rgba(255, 255, 255, 0.692);
+
+  }
+.discount-card-item img{
+    object-fit: cover;
+    width: 30vh;
+    height: 40vh;
+    border-radius: 4px;
+   
+
+  }
+.prices{
+    display: flex;
+    max-width: 30vh;
+    
+
+  }
+.prices p{
+ margin: 0px 5px;
+  }
+.prices p:nth-child(2){
+    text-decoration:line-through;
+  }
+.sm-card{
+    display:flex;
+    background-color: white;
+    flex-direction: row;
+    
+  }
+.açıklama{
+ width: 60%;
+ padding: 5px 15px;
+ background-color: white;
+ font-family: roboto,sans-serif;
+ text-align: left;
+ overflow: auto;
+ 
+ 
+
+  }
+.sm-card img{
+    margin:10px 15px ;
+    object-fit: cover;
+    height: 20vh;
+    width: 30vh;
+  }
+.sm-card-buy{
+    display: flex;
+    flex-direction:column ;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.sm-prices{
+    display: flex;
+    width: 15%;
+    height: 10%;
+    background-color: white;
+    margin-top:10px ;
+    margin-left:50px ;
+    transform: translateX(30px);
+    font-size: small;
+    
+  }
+.sm-prices p{
+    margin: 0px 3px;
+    background-color: white;
+    
+    
+  }
+.sm-prices p:nth-child(2){
+    text-decoration:line-through;
+    color: grey;
+
+  }
+.sm-prices p:last-child{
+    color: black;
+    text-align: right;
+  }
+#sm-discount{
+    height: 3vh;
+    background-color: rgb(2, 2, 2);
+    border-radius: 2px;
+    padding:0px 8px;
+    color: rgba(255, 255, 255, 0.863);
+    
+  }
+.sm-card-buy p:last-child{
+    color: grey;
+    background-color: white;
+    font-size: 0.78rem;
+    
+  }
+.buy-fav-button{
+    display: flex;
+    background-color: white;
+    
+    
+  }
+.buy-fav-button button:nth-child(1){
+    flex-grow: 2;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    margin-right: -8px;
+    height: 6vh;
+  }
+.buy-fav-button button:nth-child(2){
+    flex-grow: 0.5;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    height: 6vh;
+  }
+.req{
+
+  margin-top: 12vh;
+  padding-left: 3vh;
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 5vh;
+
+}
+.req-card{
+  width:70% ;
+  margin:0vh 0vh ;
+  padding: 60px 60px;
+  margin-left: 20%;
+  margin-right: 2%;
+  background-color: #2a2a2a;
+
+}
+.req-min-ön{
+  display: flex;
+  flex: row;
+ 
+  
+}
+.req-min{
+margin-right: 50vh;
+
+
+}
+.req-os hr{
+  margin-top: 30px; 
+  border-top: 1px rgba(206, 202, 202, 0.1);
+  color: rgba(206, 202, 202, 0.1);
+  opacity: 0.2;
+}
+.dropdown{
+  margin-top: 10vh;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding-right:30px ;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-height: 200px;
+}
+.dropdown hr{
+  width: 100%;
+  height: 0.1px;
+  opacity: 0.2;
+}
+.dropbtn{
+ color: rgba(204, 204, 204, 0.774);
+ width: 200px;
+ height: 40px;
+ text-align: left;
+ padding-top: 10px;
+ transform: translateX(-15px);
+
+ 
+}
+.dropdown-content{
+  display: flex;
+  flex-direction: column;
+  color: rgba(204, 204, 204, 0.774);
+  
+}
+.dropdown-content button{
+margin:10px 0px;
+text-decoration: none;
+color: rgba(204, 204, 204, 0.774);
+background: none;
+
+}
+.dropdown-content a{
+  margin:10px 0px;
+  text-decoration: none;
+  color: rgba(204, 204, 204, 0.774);
+  
+  
+  }
+.up {
+  margin-right: 20px; 
+  float: right;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  
+}
+
+.arrowdown {
+  margin-right: 20px; 
+  float:right;
+  border: solid rgba(255, 255, 255, 0.7);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropdown-sıralama{
+  
+  
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sıralayan-kart{
+  margin-top: 50px;
+  overflow: hidden;
+  max-width: 200vh;
+}
+.sırala-çıkış{
+  display: flex;
+  z-index: 3;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.arrrrowup {
+  margin-top: 5px;
+  margin-right: 50px; 
+  margin-left: 10px;
+  border: solid rgba(255, 255, 255, 0.7);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  
+  
+}
+
+.arrrowdown {
+  margin-right: 50px; 
+  margin-left: 10px;
+  border: solid rgba(255, 255, 255, 0.7);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.sıralı-discount{
+  background-color: rgba(44, 138, 60, 0.774);
+  border-radius: 10px;
+  padding:0px 8px;
+  margin-right: 15px;
+  transform: translateX(-7px);
+
+}
