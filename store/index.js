@@ -10,6 +10,7 @@ export const state =()=>({
      counter:0,
     selected: false,
     authuser:null,
+    basket:[],
     
       itemss: [],
         newitem:[]
@@ -55,6 +56,31 @@ export const mutations={
 
 
     },
+    msBoşalt(state){
+      let uzunluk =state.basket.length;
+      for (let index = 0; index < uzunluk; index++) {
+        state.basket.pop()
+        
+      }
+    }
+    ,
+    mSepeteEkle(state,item){
+      if(state.basket.length===0)
+      state.basket.push(item)
+      else{
+      if(!!state.basket.find(obje=>obje.name===item.name)){
+       
+      }
+      else{
+        state.basket.push(item)
+      }
+
+      }
+      
+
+      console.log(state.basket)
+
+    }
     // mUpdateUser(state,user){
     //   state.authuser=user;
     //   console.log('burdayım');
@@ -83,6 +109,12 @@ export  const actions={
     setItems({ state, commit },items) {
        
       commit('setItems',items)
+    },
+    aSepeteEkle({commit},item){
+    commit('mSepeteEkle',item)
+    },
+    sepetiBoşalt({commit}){
+      commit('msBoşalt')
     }
     
 };

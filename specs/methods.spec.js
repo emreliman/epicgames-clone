@@ -21,7 +21,7 @@ spyonclick.mockReset()
 test('navbar-islogin ', () => {
     const swrapper =mount(navbar,{
         stubs:{
-            NuxtLink:RouterLinkStub
+            NuxtLink:true
         }
     })
     swrapper.setData({
@@ -34,7 +34,7 @@ expect(swrapper.vm.isLogin).toBe(true)
 test('email ', () => {
     const nwrapper =mount(navbar,{
         stubs:{
-            NuxtLink:RouterLinkStub
+            NuxtLink:true
         }
     })
     expect(nwrapper.vm.email).toBe(null)

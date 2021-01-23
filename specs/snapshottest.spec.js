@@ -60,7 +60,11 @@ test('filteritem ', () => {
 })
 
 test('navbar ', () => {
-    const nwrapper=mount(navbar)
+    const nwrapper=mount(navbar,{
+        stubs:{
+            NuxtLink:true
+        }
+    })
     expect(nwrapper.html()).toMatchSnapshot()
 })
 

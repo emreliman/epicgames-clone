@@ -82,23 +82,24 @@ exports[`kayıtol  1`] = `
 exports[`navbar  1`] = `
 <div id="nav-bar">
   <ul>
-    <nuxt-link to="[object Object]">
+    <nuxtlink-stub to="[object Object]">
       <li><img src="@/assets/epicgames-logo.png" alt="loho"></li>
-    </nuxt-link>
-    <nuxt-link to="[object Object]">
+    </nuxtlink-stub>
+    <nuxtlink-stub to="[object Object]">
       <li>MAĞAZA</li>
-    </nuxt-link>
+    </nuxtlink-stub>
     <li>HABERLER</li>
     <li>SSS</li>
-    <li>YARDIM</li>
-    <li>UNREAL ENGİNE</li>
+    <nuxtlink-stub to="[object Object]">
+      <li>SEPETE GİT</li>
+    </nuxtlink-stub>
     <li>EPİC GAMES'İ İNDİR</li>
-    <nuxt-link to="[object Object]">
+    <nuxtlink-stub to="[object Object]">
       <li id="papara">Kayıt ol</li>
-    </nuxt-link>
-    <nuxt-link to="[object Object]">
+    </nuxtlink-stub>
+    <nuxtlink-stub to="[object Object]">
       <li>Giriş Yap</li>
-    </nuxt-link>
+    </nuxtlink-stub>
     <!---->
     <!---->
     <li><i class="fas fa-globe"></i></li>
