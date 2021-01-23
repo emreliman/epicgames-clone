@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deneme  1`] = `<h1>Emre</h1>`;
+
+exports[`filteritem  1`] = `
+<div class="dropdown">
+  <p>Filtreler</p>
+  <hr> <button class="dropbtn">
+    Kategoriler <i class="arrow up"></i></button>
+  <div class="dropdown-content"><button href="#">Aksiyon</button> <button href="#">Macera</button> <button>Mod Araçları</button> <button>Bulmaca</button> <button>Yarış</button> <button>RYO</button> <button>Nişancı</button></div>
+  <hr>
+</div>
+`;
+
+exports[`girişyap  1`] = `
+<div class="giriş-card">
+  <div class="giriş-logo"><img src="@/assets/epicgames-logo.png" alt="logo"></div>
+  <p style="color: rgba(255, 255, 255, 0.75); margin-left: 30px; font: sans-serif; font-size: 13px;">
+    BİR EPIC GAMES HESABI ILE GIRIŞ YAP
+  </p>
+  <div class="giriş-görünenad"><input placeholder="*E-posta Adresi" required="required">
+    <p style="margin-top: 25px; transform: translateX(-55px);">Gerekli</p>
+  </div>
+  <div class="giriş-şifre"><input placeholder="*Şifre " type="password" required="required">
+    <p style="margin-top: 25px; transform: translateX(-55px);">Gerekli</p>
+  </div>
+  <!---->
+  <div class="giriş-teklifler"><input type="checkbox">
+    <p style="margin-top: 18px; margin-right: 110px;">Beni hatırla</p>
+    <p style="margin-top: 18px;">Şifreni Mİ Unuttun?</p>
+  </div> <button class="giriş-devamet">HEMEN GİRİŞ YAP</button>
+  <p style="text-align: center; color: rgba(255, 255, 255, 0.815); font-size: 12px;">
+    Gizlilik Politikası
+  </p>
+  <p style="color: rgba(244, 244, 244, 0.5); text-align: center; font-size: 12px;">
+    Epic Games hesabın yok mu? Kayıt Ol
+  </p>
+  <p style="color: rgba(244, 244, 244, 0.5); text-align: center; font-size: 12px; margin-top: -5px;">
+    Tüm kaydolma seçeneklerine geri dön
+  </p>
+</div>
+`;
+
+exports[`kayıtol  1`] = `
+<div class="kayıtol-card">
+  <div class="kaytol-logo"><img src="@/assets/epicgames-logo.png" alt="logo"></div>
+  <div class="kayıtol-droplist">
+    <p style="color: rgb(244, 244, 244); font-size: 12px; font-family: Brutal, sans-serif; margin-left: 32px;">
+      KAYIT OL
+    </p> <button class="kayıtol-dropbtn">
+      Turkey
+      <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true" class="MuiSvgIcon-root" style="width: 2rem; height: 2rem; float: right;">
+        <path d="M7 10l5 5 5-5z"></path>
+      </svg></button>
+    <div class="kayıtol-drop-content"></div>
+  </div>
+  <div class="kayıtol-adsoyad"><input placeholder="*Ad" required="required"> <input placeholder="*Soyadı" required="required"></div>
+  <div class="kayıtol-görünenad"><input placeholder="*Görünen Ad" required="required"> <input placeholder="*E-posta Adresi" required="required"></div>
+  <div class="kayıtol-şifre"><input placeholder="*Şifre " type="password" required="required"></div>
+  <div class="kayıtol-teklifler"><input type="checkbox">
+    <p>
+      Epic Games'ten haberler, anketler ve özel teklifler almak istiyorum.
+    </p>
+  </div>
+  <div class="kayıtol-okudum"><input type="checkbox">
+    <p>Okudum ve onaylıyorum</p>
+  </div> <button class="kayıtol-devamet">
+    DEVAM ET
+  </button>
+  <p style="text-align: center; color: rgba(255, 255, 255, 0.815); font-size: 12px;">
+    Gizlilik Politikası
+  </p>
+  <p style="color: rgba(244, 244, 244, 0.5); text-align: center; font-size: 12px;">
+    Epic Games hesabın var mı? Giriş Yap
+  </p>
+  <p style="color: rgba(244, 244, 244, 0.5); text-align: center; font-size: 12px; margin-top: -5px;">
+    Tüm kaydolma seçeneklerine geri dön
+  </p>
+</div>
+`;
+
+exports[`navbar  1`] = `
+<div id="nav-bar">
+  <ul>
+    <nuxt-link to="[object Object]">
+      <li><img src="@/assets/epicgames-logo.png" alt="loho"></li>
+    </nuxt-link>
+    <nuxt-link to="[object Object]">
+      <li>MAĞAZA</li>
+    </nuxt-link>
+    <li>HABERLER</li>
+    <li>SSS</li>
+    <li>YARDIM</li>
+    <li>UNREAL ENGİNE</li>
+    <li>EPİC GAMES'İ İNDİR</li>
+    <nuxt-link to="[object Object]">
+      <li id="papara">Kayıt ol</li>
+    </nuxt-link>
+    <nuxt-link to="[object Object]">
+      <li>Giriş Yap</li>
+    </nuxt-link>
+    <!---->
+    <!---->
+    <li><i class="fas fa-globe"></i></li>
+  </ul>
+</div>
+`;
+
+exports[`reqitem  1`] = `
+<div class="req">
+  <p style="color: white;">Özellikler</p>
+  <div class="req-card">
+    <div class="req-os" style="color: white; margin-bottom: 50px;">
+      Windows
+      <hr>
+    </div>
+    <div class="req-min-ön">
+      <div class="req-min">
+        <p style="color: grey; margin-bottom: 50px;">Minimum</p>
+        <p style="color: grey;">İşletim Sistemi</p>
+        <p style="color: white;">Windows 10 64-bit</p>
+        <p style="color: grey;">İŞLEMCİ</p>
+        <p style="color: white;">Core i3 3.3 Ghz</p>
+        <p style="color: grey;">Bellek</p>
+        <p style="color: white;">4GB RAM</p>
+        <p style="color: grey;">Ekran Kartı</p>
+        <p style="color: white;">Intel HD 4000</p>
+      </div>
+      <div class="req-ön">
+        <p style="color: grey; margin-bottom: 50px;">Önerilen</p>
+        <p style="color: grey;">İşletim Sistemi</p>
+        <p style="color: white;">Windows 10 64-bit</p>
+        <p style="color: grey;">İŞLEMCİ</p>
+        <p style="color: white;">Core i5 3.5 Ghz</p>
+        <p style="color: grey;">Bellek</p>
+        <p style="color: white;">8 GB RAM</p>
+        <p style="color: grey;">Ekran Kartı</p>
+        <p style="color: white;">Nvidia GTX 660</p>
+      </div>
+    </div>
+    <div class="req-supported-lang">
+      <p style="color: grey;">Desteklenen Diller:</p>
+      <p style="color: white;">İngilizce, Fransızca, Almanca, Türkçe</p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`smallcard  1`] = `
+<div class="sm-card">
+  <p class="açıklama">
+    Auto Chess, Dragonest Co.Ltd ve Drodo Studio tarafından ortaklaşa geliştirilen ve Dragonest Co.Ltd yayınlanan orijinal otomatik savaş oyunudur.Auto Chess çıkışından bu yana yepyeni oynanış modu ve stratejik rekabetçi özellikleriyle tüm dünyada önemli bir etki bıraktı. Ayrıca tüm dünyada milyonlarca oyuncunun ilgisini çekti. Her bir oyuncu İnternet üzerinden dünyanın dört bir köşesinden katılan başka oyunculara karşı oynayabilir.
+  </p>
+  <div class="sm-card-buy">
+    <div class="sm-prices">
+      <p id="sm-discount">
+        -50%
+      </p>
+      <p>100₺</p>
+      <p>100₺</p>
+    </div>
+    <div class="buy-fav-button"><button>ŞİMDİ SATIN AL</button> <button class="heart-icon"><i class="far fa-heart"></i></button></div>
+    <p>indirim 05.12.2020 saat 19:00'da bitiyor.</p>
+  </div>
+</div>
+`;

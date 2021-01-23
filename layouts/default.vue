@@ -1,6 +1,6 @@
 <template>
   <div>
- <link
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
@@ -11,57 +11,48 @@
       crossorigin="anonymous"
     />
 
-    <navbar/>
+    <navbar />
     <Nuxt />
   </div>
 </template>
 <script>
-import config from "../assets/config.js"
-import firebase from 'firebase/app';
-require('firebase/auth');
-require('firebase/database');
-import navbar from '@/components/navbar';
-import {mapActions} from 'vuex';
+import config from "../assets/config.js";
+import firebase from "firebase/app";
+require("firebase/auth");
+require("firebase/database");
+import navbar from "../components/navbar";
+import { mapActions } from "vuex";
 export default {
-  components:{
-  navbar
+  components: {
+    navbar
   },
-  created(){
-    if (!firebase.apps.length) {
-   firebase.initializeApp(config);
-   }
-   else {
-   firebase.app(); 
-   }
-   firebase.database().ref('/').once('value').then(snap=>{
-        console.log(snap.val());
-        this.setItems(snap.val());
+  created() {
+    this.startfirebase();
+  },
+  methods: {
+    ...mapActions(["setItems"]),
+    startfirebase() {
+      if (!firebase.apps.length) {
+        firebase.initializeApp(config);
+      } else {
+        firebase.app();
       }
-
-      
-      
-      
-      )
-  },
-  methods:{
-    ...mapActions([
-            'setItems',
-          ])
+      firebase
+        .database()
+        .ref("/")
+        .once("value")
+        .then(snap => {
+          this.setItems(snap.val());
+        });
+    }
   }
-}
+};
 </script>
 
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

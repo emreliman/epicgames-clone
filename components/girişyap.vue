@@ -88,13 +88,18 @@ export default {
 
 
   },
-  mounted() {
-    console.log(this.$store.getters["getauser"]);
-  },
+ 
   
 
   methods:{
     signIn(e){
+      if (!firebase.apps.length) {
+            firebase.initializeApp(config);
+                                       }
+            else {
+              firebase.app(); 
+                 }
+
       e.preventDefault();
       firebase.auth().signInWithEmailAndPassword(this.email,this.password).then(()=>{
         console.log('all Good!');

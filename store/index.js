@@ -17,7 +17,6 @@ export const state =()=>({
   
     export const getters = {
       getauser(state) {
-        console.log("getters'da")
         return state.authuser;
       }
     };
@@ -77,14 +76,12 @@ export  const actions={
     },
     aUpdateUser({commit},user){
       state.authuser=user;
-        console.log(state.authuser);
         
    
      
     },
     setItems({ state, commit },items) {
        
-      console.log("action a giriyor.");
       commit('setItems',items)
     }
     
