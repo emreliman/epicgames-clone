@@ -75,7 +75,7 @@ exports[`kayıtol  1`] = `
   </p>
   <p style="color: rgba(244, 244, 244, 0.5); text-align: center; font-size: 12px; margin-top: -5px;">
     Tüm kaydolma seçeneklerine geri dön
-  </p>
+  </p> <button class="updater" style="display: none;"></button>
 </div>
 `;
 
