@@ -1,6 +1,7 @@
 # EPIC GAMES CLONE
 
-![epic-games](md\epic-games-clone.PNG?raw=true "Home Page")
+![epic-games-clone](https://user-images.githubusercontent.com/70384088/195578401-06a36a14-5503-40ab-83e5-2a4b7b3605e2.PNG)
+
 
 <hr/>
 
