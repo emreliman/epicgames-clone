@@ -1,11 +1,11 @@
 <template>
-    <kayıtol/>
+  <kayıtol />
 </template>
 <script>
-import kayıtol from "@/components/kayıtol"
+import kayıtol from "@/components/kayıtol";
 export default {
-    components:{
-        kayıtol
-    }
-}
+  components: {
+    kayıtol
+  }
+};
 </script>

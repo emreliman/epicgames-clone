@@ -9,7 +9,7 @@
       </nuxt-link>
       <li>HABERLER</li>
       <li>SSS</li>
-     <nuxt-link :to="{name:'sepet'}"> <li>SEPETE GİT</li> </nuxt-link>
+      <nuxt-link :to="{ name: 'sepet' }"> <li>SEPETE GİT</li> </nuxt-link>
       <li>EPİC GAMES'İ İNDİR</li>
       <nuxt-link v-if="!isLogin" :to="{ name: 'kayıt0l' }">
         <li id="papara">Kayıt ol</li>
